@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2f5a611-5474-4055-8405-fa6d43cb1887" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/ContactsApp" beforeDir="false" afterPath="$PROJECT_DIR$/ContactsApp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ContactsApp/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/ContactsApp/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ContactsApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ContactsApp/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ContactsApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ContactsApp/package.json" afterDir="false" />
@@ -47,7 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1618832663402</updated>
       <workItem from="1618832664541" duration="47366000" />
-      <workItem from="1619159544302" duration="5665000" />
+      <workItem from="1619159544302" duration="5979000" />
     </task>
     <servers />
   </component>
