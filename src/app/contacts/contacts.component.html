@@ -1,0 +1,40 @@
+<div class="container mt-3">
+  <div class="card col-6">
+    <div class="card-header">
+      Liste des contacts
+    </div>
+    <div class="card-body">
+      <div>
+        <div class="row g-3 align-items-center">
+          <div class="col-auto">
+            <label class="col-form-label">Search : </label>
+          </div>
+          <div class="col-auto">
+            <input type="text" [(ngModel)]="motCle"/>
+          </div>
+          <div class="col-auto">
+            <button class="btn btn-secondary" (click)="search()">Search</button>
+          </div>
+      </div>
+      <table class="table table-success table-striped mt-3">
+        <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Nom</th>
+          <th scope="col">Prénom</th>
+          <th scope="col">Email</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let c of pageContacts">
+          <th scope="row">{{ c.id }}</th>
+          <td>{{ c.nom }}</td>
+          <td>{{ c.prenom }}</td>
+          <td>{{ c.email }}</td>
+        </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+</div>
