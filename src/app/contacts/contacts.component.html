@@ -26,7 +26,7 @@
         </tr>
         </thead>
         <tbody>
-        <tr *ngFor="let c of pageContacts">
+        <tr *ngFor="let c of pageContacts?.content">
           <th scope="row">{{ c.id }}</th>
           <td>{{ c.nom }}</td>
           <td>{{ c.prenom }}</td>
