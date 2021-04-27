@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2f5a611-5474-4055-8405-fa6d43cb1887" name="Default Changelist" comment="">
+    <list default="true" id="a2f5a611-5474-4055-8405-fa6d43cb1887" name="Default Changelist" comment="correction *ngFor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactsApp" beforeDir="false" afterPath="$PROJECT_DIR$/ContactsApp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContactsApp/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ContactsApp/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContactsApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ContactsApp/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ContactsApp/src/app/contacts/contacts.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ContactsApp/src/app/contacts/contacts.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContactsApp/src/app/contacts/contacts.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ContactsApp/src/app/contacts/contacts.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContactsApp/src/services/contacts.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ContactsApp/src/services/contacts.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContactsApp/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/ContactsApp/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +49,16 @@
       <option name="presentableId" value="Default" />
       <updated>1618832663402</updated>
       <workItem from="1618832664541" duration="47366000" />
-      <workItem from="1619159544302" duration="9921000" />
+      <workItem from="1619159544302" duration="31759000" />
     </task>
+    <task id="LOCAL-00001" summary="correction *ngFor">
+      <created>1619418160315</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619418160315</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -62,5 +74,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="correction *ngFor" />
+    <option name="LAST_COMMIT_MESSAGE" value="correction *ngFor" />
   </component>
 </project>
