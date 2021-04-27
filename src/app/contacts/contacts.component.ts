@@ -10,8 +10,10 @@ import {ContactsService} from "../../services/contacts.service";
 export class ContactsComponent implements OnInit {
   pageContacts:any;
   motCle:string="";
-  page:number=0;
+  public totalPages:number;
+  currentPage:number=0;
   size:number=5;
+  pages:Array<number>;
 
   constructor(public http:HttpClient, public contactservice:ContactsService) { }
 
@@ -19,10 +21,11 @@ export class ContactsComponent implements OnInit {
   }
 
   doSearch(){
-    this.contactservice.getContacts(this.motCle, this.page, this.size).subscribe(
+    this.contactservice.getContacts(this.motCle, this.currentPage, this.size).subscribe(
       data=>{
-        console.log(data);
         this.pageContacts = data;
+        this.totalPages=data["totalPages"];
+        this.pages = new Array<number>(this.totalPages);
       }, error => {
         console.log(error);
       }
@@ -30,6 +33,12 @@ export class ContactsComponent implements OnInit {
   }
 
   search(){
+    this.doSearch();
+  }
+
+  goToPage(i:number){
+
+    this.currentPage=i;
     this.doSearch();
   }
 
