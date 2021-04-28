@@ -8,6 +8,7 @@
       <th scope="col">Date de naissance</th>
       <th scope="col">Email</th>
       <th scope="col">Téléphone</th>
+      <th scope="col">Action</th>
     </tr>
     </thead>
     <tbody>
@@ -18,6 +19,10 @@
       <td>{{ c.dateNaissance }}</td>
       <td>{{ c.email }}</td>
       <td>{{ c.tel }}</td>
+      <td>
+        <a class="btn btn-warning mx-1" (click)="onEditContact(c.id)">Modifier</a>
+        <a class="btn btn-danger" (click)="onDeleteContact(c.id)">Supprimer</a>
+      </td>
     </tr>
     </tbody>
   </table>

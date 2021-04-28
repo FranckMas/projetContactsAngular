@@ -10,11 +10,13 @@ import {FormsModule} from "@angular/forms";
 import { NewContactComponent } from './new-contact/new-contact.component';
 import { NouveauContactComponent } from './nouveau-contact/nouveau-contact.component';
 import { ListContactsComponent } from './list-contacts/list-contacts.component';
+import { EditContactComponent } from './edit-contact/edit-contact.component';
 
 
 const appRoutes:Routes = [
   {path: 'about', component:AboutComponent},
   {path: 'contacts', component:ContactsComponent},
+  {path: 'editContact/:id', component:EditContactComponent},
   {path: 'newContact', component:NouveauContactComponent},
   {path: 'list', component:ListContactsComponent},
   {path: '', redirectTo:'/about', pathMatch:'full'}
@@ -27,7 +29,8 @@ const appRoutes:Routes = [
     AboutComponent,
     NewContactComponent,
     NouveauContactComponent,
-    ListContactsComponent
+    ListContactsComponent,
+    EditContactComponent
   ],
   imports: [
     BrowserModule,

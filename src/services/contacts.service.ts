@@ -19,4 +19,16 @@ export class ContactsService{
   allContacts(){
     return this.http.get("http://localhost:8080/contacts");
   }
+
+  getContact(id:number){
+    return this.http.get("http://localhost:8080/contacts/"+id);
+  }
+
+  updateContact(contact:Contact){
+    return this.http.put("http://localhost:8080/contacts/"+contact.id, contact);
+  }
+
+  deleteContact(id:number){
+    return this.http.delete("http://localhost:8080/contacts/"+id);
+  }
 }
