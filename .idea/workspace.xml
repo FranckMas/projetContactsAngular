@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2f5a611-5474-4055-8405-fa6d43cb1887" name="Default Changelist" comment="maj post new contact">
+    <list default="true" id="a2f5a611-5474-4055-8405-fa6d43cb1887" name="Default Changelist" comment="ajout composant liste">
+      <change afterPath="$PROJECT_DIR$/ContactsApp/src/app/edit-contact/edit-contact.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ContactsApp/src/app/edit-contact/edit-contact.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ContactsApp/src/app/edit-contact/edit-contact.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ContactsApp/src/app/edit-contact/edit-contact.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactsApp" beforeDir="false" afterPath="$PROJECT_DIR$/ContactsApp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactsApp/src/app/about/about.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ContactsApp/src/app/about/about.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactsApp/src/app/about/about.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ContactsApp/src/app/about/about.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactsApp/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ContactsApp/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ContactsApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ContactsApp/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactsApp/src/app/contacts/contacts.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ContactsApp/src/app/contacts/contacts.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactsApp/src/app/nouveau-contact/nouveau-contact.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ContactsApp/src/app/nouveau-contact/nouveau-contact.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactsApp/src/app/nouveau-contact/nouveau-contact.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ContactsApp/src/app/nouveau-contact/nouveau-contact.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContactsApp/src/app/list-contacts/list-contacts.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ContactsApp/src/app/list-contacts/list-contacts.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContactsApp/src/app/list-contacts/list-contacts.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ContactsApp/src/app/list-contacts/list-contacts.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ContactsApp/src/services/contacts.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ContactsApp/src/services/contacts.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1618832663402</updated>
       <workItem from="1618832664541" duration="47366000" />
-      <workItem from="1619159544302" duration="43440000" />
+      <workItem from="1619159544302" duration="62089000" />
     </task>
     <task id="LOCAL-00001" summary="correction *ngFor">
       <created>1619418160315</created>
@@ -71,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619517573885</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ajout composant liste">
+      <created>1619594855373</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619594855373</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +98,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="correction *ngFor" />
     <MESSAGE value="maj post new contact" />
-    <option name="LAST_COMMIT_MESSAGE" value="maj post new contact" />
+    <MESSAGE value="ajout composant liste" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout composant liste" />
   </component>
 </project>
