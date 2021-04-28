@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {ContactsService} from "../../services/contacts.service";
+import {HttpClient} from "@angular/common/http";
 
 @Component({
   selector: 'app-about',
@@ -16,5 +18,8 @@ export class AboutComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+
+
 
 }

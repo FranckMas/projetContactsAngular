@@ -20,6 +20,7 @@ export class ContactsComponent implements OnInit {
   ngOnInit(): void {
   }
 
+
   doSearch(){
     this.contactservice.getContacts(this.motCle, this.currentPage, this.size).subscribe(
       data=>{
@@ -27,7 +28,7 @@ export class ContactsComponent implements OnInit {
         this.totalPages=data["totalPages"];
         this.pages = new Array<number>(this.totalPages);
       }, error => {
-        console.log(error);
+        console.log(JSON.parse(error._body).message);
       }
     )
   }
@@ -37,7 +38,6 @@ export class ContactsComponent implements OnInit {
   }
 
   goToPage(i:number){
-
     this.currentPage=i;
     this.doSearch();
   }
