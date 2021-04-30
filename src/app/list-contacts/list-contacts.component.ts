@@ -2,8 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import {HttpClient} from "@angular/common/http";
 import {ContactsService} from "../../services/contacts.service";
 import {Router} from "@angular/router";
-import {Contact} from "../../model/model.contact";
-import {state} from "@angular/animations";
 
 @Component({
   selector: 'app-list-contacts',
